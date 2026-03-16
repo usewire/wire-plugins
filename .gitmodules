@@ -1,0 +1,3 @@
+[submodule "plugins/wire-memory"]
+	path = plugins/wire-memory
+	url = https://github.com/usewire/wire-memory.git

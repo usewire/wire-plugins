@@ -1,28 +1,19 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "wire-plugins",
+  "version": "1.0.0",
+  "description": "Official Claude Code plugins from Wire — persistent memory, context management, and AI agent tools.",
   "owner": {
     "name": "Wire",
     "email": "hello@usewire.io"
-  },
-  "metadata": {
-    "description": "Official Claude Code plugins from Wire — persistent memory, context management, and AI agent tools.",
-    "version": "1.0.0",
-    "homepage": "https://usewire.io"
   },
   "plugins": [
     {
       "name": "wire-memory",
       "description": "Persistent memory for AI agents. Connect to a Wire container to remember decisions, patterns, and context across sessions.",
-      "source": "github:usewire/wire-memory",
+      "source": "./plugins/wire-memory",
       "version": "0.1.0",
-      "category": "productivity",
-      "keywords": [
-        "memory",
-        "mcp",
-        "context",
-        "persistence",
-        "wire"
-      ]
+      "category": "productivity"
     }
   ]
 }
