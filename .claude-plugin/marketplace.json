@@ -12,7 +12,7 @@
       "name": "wire-memory",
       "description": "Persistent memory for AI agents. Connect to a Wire container to remember decisions, patterns, and context across sessions.",
       "source": "./plugins/wire-memory",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "productivity"
     }
   ]
